@@ -537,10 +537,7 @@ footer p {
   }
 }
 @media (max-width: 575px) {
-  .home-text h1 {
-    font-size: 30px;
-    padding: 0 10px;
-  }
+ 
   .stats .stat-box {
     width: 50%;
     margin-bottom: 30px;
