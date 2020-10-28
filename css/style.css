@@ -472,7 +472,8 @@ footer p {
 }
 @media (max-width: 767px) {
   .header {
-    padding: 10px 0;
+  padding: 10px 0;
+    
   }
   .header .nav-toggle {
     display: flex;
@@ -510,6 +511,9 @@ footer p {
     font-size: 40px;
     letter-spacing: 3px;
   }
+  .section-title {
+    font-size: 35px;
+  }
   .about .about-image {
     margin-bottom: 30px;
   }
@@ -539,8 +543,10 @@ footer p {
 @media (max-width: 575px) {
   .home-text h1 {
     font-size: 32px;
-    padding: 0 5px;
     letter-spacing: 3px;
+  }
+  .section-title {
+    font-size: 28px;
   }
   .stats .stat-box {
     width: 50%;
