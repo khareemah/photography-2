@@ -63,6 +63,7 @@ body {
   background-color: transparent;
   color: #ff9800;
 }
+
 /* loader */
 .loader {
   position: fixed;
@@ -87,6 +88,7 @@ body {
   border-left: 2px solid black;
   animation: 1s rotate linear infinite;
 }
+
 /* header */
 .header {
   position: absolute;
@@ -132,7 +134,6 @@ body {
   background-color: white;
   transition: 0.5s ease all;
 }
-
 .header.fixed .nav-toggle span {
   background-color: black;
 }
@@ -290,7 +291,6 @@ section.services {
 .services .service-item-inner .overlay:hover {
   background-color: transparent;
 }
-
 .service-item-inner .overlay:hover h2 {
   transform: translateX(30px);
   opacity: 0;
@@ -311,6 +311,7 @@ section.services {
   transition: 0.5s ease transform;
   font-size: 15px;
 }
+
 /* works */
 section.works {
   padding: 60px 20px 0;
@@ -361,6 +362,7 @@ section.works {
   transform: translateX(0px);
   opacity: 1;
 }
+
 /* contact */
 section.contact {
   padding: 90px 20px 30px;
@@ -398,7 +400,6 @@ section.contact .contact-bg {
   height: 100px;
   resize: none;
 }
-
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -460,6 +461,7 @@ section.contact .contact-bg {
   display: inline-block;
   padding: 4px;
 }
+
 /* footer */
 footer {
   padding: 20px;
@@ -470,10 +472,11 @@ footer p {
   font-size: 14px;
   color: #555;
 }
+
+/* media queries */
 @media (max-width: 767px) {
   .header {
   padding: 10px 0;
-    
   }
   .header .nav-toggle {
     display: flex;
@@ -565,6 +568,7 @@ footer p {
     padding: 0 15px;
   }
 }
+
 /* lightbox */
 .lightbox {
   position: fixed;
