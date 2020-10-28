@@ -476,7 +476,7 @@ footer p {
 /* media queries */
 @media (max-width: 767px) {
   .header {
-  padding: 10px 0;
+    padding: 10px 0;
   }
   .header .nav-toggle {
     display: flex;
@@ -492,6 +492,9 @@ footer p {
   }
   .header .nav.open {
     margin-top: 0;
+  }
+  .header .nav ul {
+    padding-left: 0;
   }
   .header .nav ul li {
     display: block;
