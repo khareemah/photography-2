@@ -16,7 +16,7 @@ const prevBtn = document.querySelector(".prev");
 for (let i = 0; i < workItems.length; i++) {
   workItems[i].addEventListener("click", function() {
     openModal();
-    let imgSrc = this.querySelector("img").getAttribute("data-large");
+    let imgSrc = this.querySelector("img").src;
     let caption = this.querySelector("img").alt;
     let currentlyselected = i;
     lightboxImg.src = imgSrc;
