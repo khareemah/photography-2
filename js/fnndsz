@@ -1,0 +1,7 @@
+const lightbox = document.querySelector(".lightbox");
+const workItems = document.querySelectorAll(".work-items");
+for (let i = 0; i < workItems.length; i++) {
+  workItems[i].addEventListener("click", function() {
+    lightbox.style.display = "block";
+  });
+}
