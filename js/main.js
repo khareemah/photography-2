@@ -25,14 +25,14 @@ for (let i = 0; i < workItems.length; i++) {
     nextBtn.addEventListener("click", function() {
       currentlyselected++;
       if (currentlyselected === allImages.length) currentlyselected = 0;
-      lightboxImg.src = allImages[currentlyselected].getAttribute("data-large");
+      lightboxImg.src = allImages[currentlyselected].src;
       captionText.innerHTML = allImages[currentlyselected].alt;
       numText.innerHTML = `${currentlyselected + 1} / 6`;
     });
     prevBtn.addEventListener("click", function() {
       if (currentlyselected === 0) currentlyselected = allImages.length;
       currentlyselected--;
-      lightboxImg.src = allImages[currentlyselected].getAttribute("data-large");
+      lightboxImg.src = allImages[currentlyselected].src;
       captionText.innerHTML = allImages[currentlyselected].alt;
       numText.innerHTML = `${currentlyselected + 1} / 6`;
     });
